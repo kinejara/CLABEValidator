@@ -14,7 +14,7 @@
 		B413D2F31C1F4CFA0093FAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B413D2F21C1F4CFA0093FAC5 /* Assets.xcassets */; };
 		B413D2F61C1F4CFA0093FAC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B413D2F41C1F4CFA0093FAC5 /* LaunchScreen.storyboard */; };
 		B413D3011C1F4CFA0093FAC5 /* CLABETests.m in Sources */ = {isa = PBXBuildFile; fileRef = B413D3001C1F4CFA0093FAC5 /* CLABETests.m */; };
-		B413D3101C1F4D560093FAC5 /* NSString+PNGCLABEValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B413D30F1C1F4D560093FAC5 /* NSString+PNGCLABEValidator.m */; };
+		B49380F31C1F5F3300101F90 /* NSString+PNGCLABEValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B49380F11C1F5F3300101F90 /* NSString+PNGCLABEValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		B413D2FC1C1F4CFA0093FAC5 /* CLABETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLABETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B413D3001C1F4CFA0093FAC5 /* CLABETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLABETests.m; sourceTree = "<group>"; };
 		B413D3021C1F4CFA0093FAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B413D30E1C1F4D560093FAC5 /* NSString+PNGCLABEValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PNGCLABEValidator.h"; sourceTree = "<group>"; };
-		B413D30F1C1F4D560093FAC5 /* NSString+PNGCLABEValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PNGCLABEValidator.m"; sourceTree = "<group>"; };
+		B49380F11C1F5F3300101F90 /* NSString+PNGCLABEValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+PNGCLABEValidator.m"; path = "CLABE/NSString+PNGCLABEValidator.m"; sourceTree = "<group>"; };
+		B49380F21C1F5F3300101F90 /* NSString+PNGCLABEValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+PNGCLABEValidator.h"; path = "CLABE/NSString+PNGCLABEValidator.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 		B413D30B1C1F4D000093FAC5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B413D30E1C1F4D560093FAC5 /* NSString+PNGCLABEValidator.h */,
-				B413D30F1C1F4D560093FAC5 /* NSString+PNGCLABEValidator.m */,
+				B49380F11C1F5F3300101F90 /* NSString+PNGCLABEValidator.m */,
+				B49380F21C1F5F3300101F90 /* NSString+PNGCLABEValidator.h */,
 				B413D2E91C1F4CFA0093FAC5 /* AppDelegate.h */,
 				B413D2EA1C1F4CFA0093FAC5 /* AppDelegate.m */,
 				B413D2EC1C1F4CFA0093FAC5 /* ViewController.h */,
@@ -240,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B413D3101C1F4D560093FAC5 /* NSString+PNGCLABEValidator.m in Sources */,
+				B49380F31C1F5F3300101F90 /* NSString+PNGCLABEValidator.m in Sources */,
 				B413D2EE1C1F4CFA0093FAC5 /* ViewController.m in Sources */,
 				B413D2EB1C1F4CFA0093FAC5 /* AppDelegate.m in Sources */,
 				B413D2E81C1F4CFA0093FAC5 /* main.m in Sources */,
@@ -430,6 +430,7 @@
 				B413D3071C1F4CFA0093FAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B413D3081C1F4CFA0093FAC5 /* Build configuration list for PBXNativeTarget "CLABETests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				B413D30A1C1F4CFA0093FAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

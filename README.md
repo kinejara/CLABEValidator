@@ -17,7 +17,7 @@ Just drag and drop the file ``NSString+PNGCLABEValidator.h`` and ``NSString+PNGC
 * Call method ``[NSString isValidCLABE:@"03218000011835971"];``
 
 # TODO
-* method to abstract short name and institution name from clabe number
+* method to abstract short name and institution name from CLABE number
 * implementation of NSError to generate error descriptions
 
 # Credits
